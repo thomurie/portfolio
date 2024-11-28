@@ -4,8 +4,8 @@
 </script>
 
 <section>
-	<h2>Experience</h2>
-	<div>
+	<h2 class="font-semibold">Experience</h2>
+	<div class="space-y-4">
 		{#each experiences as experience}
 			<ExperienceCard
 				title={experience.title}

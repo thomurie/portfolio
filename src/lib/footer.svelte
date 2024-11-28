@@ -1,4 +1,4 @@
-<footer>
+<footer class="space-y-4">
 	<p>
 		This site was designed in Figma and coded in WebStorm by yours truly. Built with Svelte.js and
 		Tailwind CSS. Deployed with Render
