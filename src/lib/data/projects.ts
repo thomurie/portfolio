@@ -13,7 +13,7 @@ const projects: IProject[] = [
 		imageAlt: 'Alt1',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	},
 	{
 		title: 'Title2',
@@ -21,7 +21,7 @@ const projects: IProject[] = [
 		imageAlt: 'Alt2',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	},
 	{
 		title: 'Title3',
@@ -29,7 +29,7 @@ const projects: IProject[] = [
 		imageAlt: 'Alt3',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	}
 ];
 

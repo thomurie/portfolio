@@ -15,7 +15,7 @@ const experiences: IExperience[] = [
 		dateTo: 'Jan 2021',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	},
 	{
 		title: 'Title2',
@@ -24,7 +24,7 @@ const experiences: IExperience[] = [
 		dateTo: 'Jan 2022',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	},
 	{
 		title: 'Title3',
@@ -33,8 +33,8 @@ const experiences: IExperience[] = [
 		dateTo: 'Jan 2023',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2, Technology 3, Technology 4, Technology 5']
+		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
 	}
 ];
 
-export { experiences, type IExperience, };
+export { experiences, type IExperience };

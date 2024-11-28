@@ -10,7 +10,7 @@
 	<p>{description}</p>
 	<div>
 		{#each technologies as technology, i}
-			<span>{technology} {i < technologies.length && '•'}</span>
+			<span>{technology} {i < technologies.length - 1 ? '•' : ''}</span>
 		{/each}
 	</div>
 </div>
