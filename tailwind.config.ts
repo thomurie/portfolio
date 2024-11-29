@@ -8,13 +8,17 @@ export default {
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
-			'emerald': '#5ECE8D',
-			'blueCrayola': '#377CFB',
-			'safetyOrange': '#F67D65',
-			'charcoal': '#333C4D',
-			'snow': '#FAF7F8',
+			emerald: '#5ECE8D',
+			blueCrayola: '#377CFB',
+			safetyOrange: '#F67D65',
+			charcoal: '#333C4D',
+			snow: '#FAF7F8'
 		},
-		extend: {}
+		extend: {},
+		fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+			serif: ['Merriweather', 'serif']
+		}
 	},
 
 	plugins: [typography]
