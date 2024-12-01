@@ -9,31 +9,31 @@ interface IExperience {
 
 const experiences: IExperience[] = [
 	{
-		title: 'Title1',
-		company: 'Company1',
-		dateFrom: 'Jan 2021',
-		dateTo: 'Jan 2021',
+		title: 'Fullstack Engineer',
+		company: 'Dataro',
+		dateFrom: 'March 2024',
+		dateTo: 'Present',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
+			'Collaborated with data scientists, designers, and product managers to implement interfaces that interact with complex models and datasets. Implemented and advocated for best practices in web performance and accessibility.',
+		technologies: ['React', 'JavaScript', 'Python', 'AWS', 'PostgreSQL']
 	},
 	{
-		title: 'Title2',
-		company: 'Company2',
-		dateFrom: 'Jan 2022',
+		title: 'Software Engineer',
+		company: 'Travelpass Group',
+		dateFrom: 'Feb 2022',
+		dateTo: 'Feb 2024',
+		description:
+			'Built and maintained critical features and components to construct multiple frontend applications. Contributed to the refactoring of the frontend, API, and backend applications.',
+		technologies: ['React', 'TypeScript', 'GraphQL', 'Elixir', 'PostgreSQL']
+	},
+	{
+		title: 'Fullstack Engineer',
+		company: 'TRU Communities (Contract)',
+		dateFrom: 'Feb 2021',
 		dateTo: 'Jan 2022',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
-	},
-	{
-		title: 'Title3',
-		company: 'Company3',
-		dateFrom: 'Jan 2023',
-		dateTo: 'Jan 2023',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima voluptates dolore a nam quaerat, animi eaque magnam fuga molestiae repellendus aliquid accusamus nobis, in deleniti asperiores corporis? Nulla, non porro.',
-		technologies: ['Technology 1', 'Technology 2', 'Technology 3', 'Technology 4', 'Technology 5']
+			'Designed, architected, and implemented multiple high-quality websites for diverse real estate projects. Refactored and rearchitected existing architecture to be more cost-effective, higher performing, and accessible.',
+		technologies: ['Svelte', 'TypeScript', 'GCP']
 	}
 ];
 
