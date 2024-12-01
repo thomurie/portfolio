@@ -5,7 +5,7 @@
 </script>
 
 <div>
-	<img src={imageURI} alt={imageAlt} />
+	<img src={imageURI} alt={imageAlt} width="200" height="100" />
 	<h3>{title}</h3>
 	<p>{description}</p>
 	<div>
