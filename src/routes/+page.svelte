@@ -1,8 +1,8 @@
 <script lang="ts">
-	import About from '$lib/about.svelte';
-	import Experience from '$lib/experience.svelte';
-	import Footer from '$lib/footer.svelte';
-	import Header from '$lib/header.svelte';
+	import About from '$lib/sections/about.svelte';
+	import Experience from '$lib/sections/experience.svelte';
+	import Footer from '$lib/sections/footer.svelte';
+	import Header from '$lib/sections/header.svelte';
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { IProject } from '$lib/data/projects';
+	import { type IProject } from '$lib/types';
 
 	let { title, imageURI, imageAlt, technologies, description }: IProject = $props();
 </script>
@@ -10,7 +10,9 @@
 	<p>{description}</p>
 	<div>
 		{#each technologies as technology, i}
-			<span>{technology} {i < technologies.length - 1 ? '•' : ''}</span>
+			<span class="text-sm font-medium">
+				{technology}{i < technologies.length - 1 ? ' • ' : ''}
+			</span>
 		{/each}
 	</div>
 </div>

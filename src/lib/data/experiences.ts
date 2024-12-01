@@ -1,11 +1,4 @@
-interface IExperience {
-	title: string;
-	company: string;
-	dateFrom: string;
-	dateTo: string;
-	description: string;
-	technologies: string[];
-}
+import { type IExperience } from '../types';
 
 const experiences: IExperience[] = [
 	{
@@ -37,4 +30,4 @@ const experiences: IExperience[] = [
 	}
 ];
 
-export { experiences, type IExperience };
+export { experiences };

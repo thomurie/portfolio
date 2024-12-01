@@ -1,11 +1,4 @@
-interface IProject {
-	title: string;
-	imageURI: string;
-	imageAlt: string;
-	description: string;
-	technologies: string[];
-}
-
+import { type IProject } from '../types';
 const projects: IProject[] = [
 	{
 		title: 'Title1',
@@ -36,4 +29,4 @@ const projects: IProject[] = [
 	}
 ];
 
-export { projects, type IProject };
+export { projects };
