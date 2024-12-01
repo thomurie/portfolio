@@ -5,12 +5,12 @@
 </script>
 
 <div>
-	<span>{dateFrom} - {dateTo}</span>
-	<h3>{title} | {company}</h3>
-	<p>{description}</p>
+	<span class="text-sm uppercase">{dateFrom} - {dateTo}</span>
+	<h3 class="font-semibold">{title} | {company}</h3>
+	<p class="py-1">{description}</p>
 	<div>
 		{#each technologies as technology, i}
-			<span>{technology} {i < technologies.length - 1 ? '•' : ''}</span>
+			<span class="text-sm font-medium">{technology} {i < technologies.length - 1 ? '•' : ''}</span>
 		{/each}
 	</div>
 </div>
