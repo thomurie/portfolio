@@ -19,6 +19,11 @@ const mainLinks: IMainLink[] = [
 		label: 'Profile for Thomas Urie on Bluesky (opens in a new tab)',
 		name: 'Bluesky',
 		url: 'https://bsky.app/profile/thom152.bsky.social'
+	},
+	{
+		label: 'Resume for Thomas Urie (opens in a new tab)',
+		name: 'Resume',
+		url: 'https://storage.googleapis.com/tu-portfolio/Thomas_Urie_Resume.pdf'
 	}
 ];
 
